@@ -1,0 +1,88 @@
+/* Basic styling for the leaderboard */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#leaderboard {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 1%;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 5%;
+}
+
+#recent-score-list {
+  list-style: none;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+/* Styling for the form */
+#add-score-section {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#score-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  margin: 1%;
+  padding: 2%;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: auto;
+}
+
+.refresh-button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
