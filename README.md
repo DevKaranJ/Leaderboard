@@ -68,7 +68,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 Navigate to the  directory where you  want to clone this project in your computer.
-Clone this repository to your desired folder:git clone (https://github.com/DevKaranJ/ToDo-list.git)
+Clone this repository to your desired folder:git clone (https://github.com/DevKaranJ/Leaderboard.git)
 
 ### Install
 Install this project with this command:
@@ -97,7 +97,6 @@ Run it in your local server
 
 - GitHub: [@githubhandle](https://github.com/DevKaranJ)
 - Twitter: [@twitterhandle](https://twitter.com/RX0069)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-karan-j/)
 
 <!-- FUTURE FEATURES -->
 
@@ -114,7 +113,7 @@ Run it in your local server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the (https://github.com/DevKaranJ/ToDo-list/issues).
+Feel free to check the (https://github.com/DevKaranJ/Leaderboard/issues).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
