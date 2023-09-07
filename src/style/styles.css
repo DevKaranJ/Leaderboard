@@ -1,26 +1,35 @@
 /* Basic styling for the leaderboard */
+html,
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./resources/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #leaderboard {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fff;
   padding: 2%;
   border-radius: 1%;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1em rgba(21, 8, 196, 0.2);
 }
 
 h1 {
   text-align: center;
+  color: #fff;
+  font-weight: 700;
 }
 
 h2 {
   margin-top: 0;
+  color: #fff;
+  font-weight: 400;
 }
 
 .row {
@@ -38,13 +47,19 @@ h2 {
 #recent-score-list {
   list-style: none;
   padding: 0;
-  border: 1px solid black;
+  border: 2px solid rgba(221, 18, 228, 0.5);
   border-radius: 5px;
   margin-top: 1em;
+  max-height: 200px;
+  overflow-y: auto;
 }
 
 li {
   margin-bottom: 1em;
+  color: #fff;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 /* Styling for the form */
@@ -85,4 +100,31 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+  #leaderboard {
+    max-width: 90%;
+    padding: 5%;
+  }
+
+  .column {
+    flex: 1;
+    padding: 5%;
+  }
+
+  .row {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for screens up to 480px wide */
+  input[type="text"],
+  input[type="number"],
+  button {
+    width: 100%;
+  }
 }
