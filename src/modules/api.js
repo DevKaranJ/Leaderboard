@@ -7,7 +7,6 @@ const fetchScores = async () => {
     const data = await response.json();
     return data.result;
   } catch (error) {
-    // console.error('Error fetching scores:', error);
     return [];
   }
 };
@@ -28,7 +27,6 @@ const submitScore = async (playerName, playerScore) => {
     const data = await response.json();
     return data;
   } catch (error) {
-    // console.error('Error submitting score:', error);
     return { result: 'error', message: 'Unable to submit score' };
   }
 };
